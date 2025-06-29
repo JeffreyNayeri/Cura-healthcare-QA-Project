@@ -23,3 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (username, password) => {
+    cy.visit('https://katalon-demo-cura.herokuapp.com');
+    cy.get("#menu-toogle.btn.btn-dark.btn-lg.toggle").click();
+    cy.get("a[href='profile.php#login']").contains('Login').click();
+
+    cy.get("[name='username']").type(username);
+    cy.get("[name='password']").type(password);
+    cy.get('#btn-login[type="submit"]').contains("Login").click();
+    cy.url().should('include', '/#appointment'); // Assert login success
+});
