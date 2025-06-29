@@ -1,0 +1,16 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "Cypress automated tests for CURA Healthcare Service website",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Jeffrey",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1"
+  }
+}
