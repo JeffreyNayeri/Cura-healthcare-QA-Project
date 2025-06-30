@@ -26,7 +26,7 @@
 
 Cypress.Commands.add('login', (username, password) => {
     cy.visit('https://katalon-demo-cura.herokuapp.com');
-    cy.get("#menu-toogle.btn.btn-dark.btn-lg.toggle").click();
+    cy.get("#menu-toggle.btn.btn-dark.btn-lg.toggle").click();
     cy.get("a[href='profile.php#login']").contains('Login').click();
 
     cy.get("[name='username']").type(username);

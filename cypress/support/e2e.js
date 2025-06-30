@@ -17,3 +17,12 @@
 import './commands'
 
 require('cypress-xpath');
+
+Cypress.on('uncaught:exception', (err) => {
+  // return false to prevent Cypress from
+  // failing the test on this error
+  if (err.message.includes("contentWindow is null")) {
+    return false
+  }
+  // let other errors fail the test
+})
