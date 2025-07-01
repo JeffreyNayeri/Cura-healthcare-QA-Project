@@ -28,7 +28,7 @@ This project automates end-to-end testing for the CURA Healthcare Service websit
 ├── package-lock.json
 └── README
 
-````
+```
 
 ---
 
@@ -48,7 +48,7 @@ This project automates end-to-end testing for the CURA Healthcare Service websit
    ```bash
    git clone https://github.com/JeffreyNayeri/Cura-healthcare-QA-Project.git
    cd Cura-healthcare-QA-Project
-    ````
+    ```
 
 2. Install dependencies:
 
