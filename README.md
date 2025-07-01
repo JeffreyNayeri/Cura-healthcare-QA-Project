@@ -1,7 +1,7 @@
 
 # CURA Healthcare QA Project
 
-This project automates end-to-end testing for the CURA Healthcare Service website using [Cypress](https://www.cypress.io/). It includes manual test cases, a test plan, test summary report, test script, custom commands, and configuration to ensure the reliability of core functionalities like booking appointments and navigating through the web application.
+This project automates end-to-end testing for the CURA Healthcare Service website using [Cypress](https://www.cypress.io/). It includes manual test cases, a test plan, test summary report, test script and configuration to ensure the reliability of core functionalities like booking appointments and navigating through the web application.
 
 ---
 
